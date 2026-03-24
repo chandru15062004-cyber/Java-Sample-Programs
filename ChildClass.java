@@ -1,7 +1,7 @@
 package org.inheritance;
 
 public class ChildClass extends ParentClass{
-	public void subject() {
+	public void children() {
 		System.out.println("SS");
 	}
 		public static  void main(String[] args) {
@@ -9,7 +9,7 @@ public class ChildClass extends ParentClass{
 			xc.depart();
 			xc.branch();
 			xc.section();
-			xc.subject();
+			xc.children();
 			
 		}
 	}
